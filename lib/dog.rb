@@ -1,7 +1,6 @@
 # Add your code here
-require 'pry'
 class Dog 
-  binding.pry
+  
   attr_reader :name, :all
   
   @@all = []
